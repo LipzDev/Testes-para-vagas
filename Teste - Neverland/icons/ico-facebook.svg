@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="14px" viewBox="0 0 7 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ico/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.095986,19.0044441 L10.3651062,19.0044441 L10.3651062,12.5025645 L9,12.5025645 L9,10.2610802 L10.3651062,10.2610802 L10.3651062,8.91605261 C10.3651062,7.08821221 11.1361074,6 13.3242825,6 L15.1466492,6 L15.1466492,8.24148431 L14.0085044,8.24148431 C13.1553965,8.24148431 13.0993237,8.55514145 13.0993237,9.13999559 L13.095986,10.2610802 L15.1599998,10.2610802 L14.9183527,12.5025645 L13.095986,12.5025645 L13.095986,19.0044441 L13.095986,19.0044441 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-1366.000000, -48.000000)">
+            <g id="ico/facebook" transform="translate(1357.000000, 42.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="color/white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="25" height="25"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

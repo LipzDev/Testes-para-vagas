@@ -1,0 +1,300 @@
+/* IPAD */
+
+@media (max-width: 1024px) and (max-height: 1366px){  
+   .bg{
+      height: 80vh;
+   }
+
+   .bg--item{
+      height: 80vh;
+   }
+
+   .plans--flex{
+      gap: 20px;
+   }
+}
+
+/* TABLET STYLES */
+
+@media screen and (max-width: 900px){
+   .menu-desktop{
+      display: none;
+   }
+
+   /* ICON */
+
+   .icon{
+      cursor: pointer;
+      z-index: 9999;
+   }
+
+   .part--1{
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      transition: 0.5s;
+   }
+
+   .part--2{
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+      transition: 0.5s;
+   }
+
+   .part--3{
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      transition: 0.5s;
+   }
+
+   /* ICONE VIRA X AO CLICAR */
+
+   .icon-x .part--1{
+      transform: rotate(45deg) translate(5px, 4px);
+   }
+
+   .icon-x .part--2{
+      opacity: 0;
+   }
+
+   .icon-x .part--3{
+      transform: rotate(-45deg) translate(7px, -7px);
+   }
+
+   /* MENU MOBILE */
+
+   .menu-mobile{
+      background-color: #ffffff;
+      width: 80%;
+      height: 100vh;
+
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-right: 1px solid rgb(201, 201, 201);
+
+      transform: translate(-200px,0);
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.5s;
+   }
+
+   .menu-mobile ul{
+      text-align: left;
+   }
+
+   .menu-mobile li+li{
+      margin-top: 50px;
+   }
+
+   .menu-mobile a{
+      color: #0066ff;
+      font-size: 1.8em;
+      transition: 0.5s;
+   }
+
+   .menu-mobile a:hover{
+      color: #0142a5;
+   }
+
+   /* MENU MOBILE - ACTIVED */
+
+   .menu-mobile.actived{
+      visibility: initial;
+      opacity: 1;
+      transform: translate(0);
+   }
+
+   /* BACKGROUND */
+
+   .bg--item h1{
+      font-size: 3.0em;
+      max-width: 90%;
+      margin: 100px 0;
+   }
+
+   /* CATEGORIES */
+
+   .name-section h2{
+      font-size: 3.0em;
+   }
+
+   /* INICIO DA ESTRUTURA DO GRID */
+
+   .categories--img--grid{
+      grid-gap: 40px;
+
+      grid-template-areas: 
+      "box-1 box-2"
+      "box-4 box-5"
+      "box-3 box-3";
+
+      grid-template-rows: repeat(3, 300px);
+   }
+
+   .box-4{
+      text-align: initial;
+   }
+
+   /* PLANS - SECTION */
+
+   .plans{
+      height: 100vh;
+   }
+
+   .space{
+      position: relative;
+      top: 0;
+      margin-bottom: 0;
+      padding: 50px 0;
+   }   
+
+   .plans--flex{
+      display: flex;     
+      flex-wrap: wrap;   
+      padding: 0;
+
+      width: 100%;
+   }
+
+   .plans--item{
+      max-width: 46.9%;
+   }
+
+   .plans--price{
+      background-color: #005499;
+      padding: 0 0;
+      color: white;
+      padding: 20px;      
+   }
+   
+   .plans--text{
+      padding: 20px;
+   }
+
+   /* TAMANHO DAS BARRAS DOS PLANOS */
+
+      .height--1{
+         height: auto;
+      }
+
+      .height--2{
+         height: auto;
+      }
+
+      .height--3{
+         height: auto;
+      }
+
+      .height--4{
+         height: auto;
+      }
+
+      .height--5{
+         height: auto;
+      }
+
+      .height--6{
+         height: auto;
+      }
+   
+}
+
+/* PHONE STYLES */
+
+@media screen and (max-width: 500px){
+   .container{
+      max-width: 350px;
+   }
+
+   /* MENU */
+
+   .menu-mobile a{
+      font-size: 1.5em;
+   }
+
+
+   /* BACKGROUND */
+   .bg{
+      height: auto;
+   }
+
+   .bg--item{
+      height: auto;
+      padding: 100px 0 50px 0;
+   }
+
+   .bg--item img{
+      width: initial;
+   }
+
+   .bg--item h1{
+      font-size: 2.0em;
+      max-width: 90%;
+      margin: 60px 0;
+   }
+
+   .bg--item button{
+      padding: 20px 70px;
+   }
+
+      /* CATEGORIES */
+
+      .name-section h2{
+         font-size: 2.0em;
+      }
+
+      .name-section p{
+         font-size: 1.0em;
+      }
+   
+      /* INICIO DA ESTRUTURA DO GRID */
+   
+      .categories--img--grid{
+         grid-template-areas: 
+         "box-1"
+         "box-2"
+         "box-3"
+         "box-4"
+         "box-5";
+   
+         grid-template-rows: repeat(5, 200px);
+      }
+
+      .text--top h3{
+         font-size: 1.8em;
+      }
+      
+      .text--top p{
+         font-size: 1.0em;
+         font-weight: 500;
+      }
+
+      .text--center h3{
+         font-size: 1.8em;
+      }
+      
+      .text--center p{
+         font-size: 1.0em;
+         font-weight: 500;
+      }
+
+       /* PLANS - SECTION */
+
+   .plans{
+      height: auto;
+      padding-bottom: 100px;
+   }
+
+   .plans--item{
+      max-width: 100%;
+   } 
+}

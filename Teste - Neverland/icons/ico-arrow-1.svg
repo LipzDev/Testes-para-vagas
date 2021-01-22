@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ico/arrow copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.8788154,16.817672 C14.7554992,16.9391723 14.5934987,17 14.431656,17 C14.2702871,17 14.1089181,16.9396378 13.9856019,16.8187582 C13.7386537,16.5766888 13.7381801,16.1837914 13.9844967,15.9411012 L16.8465061,13.1206815 L7.63158102,13.1206815 C7.2827904,13.1206815 7,12.8427672 7,12.4999906 C7,12.157214 7.2827904,11.8792996 7.63158102,11.8792996 L16.8465061,11.8792996 L13.9844967,9.05903511 C13.7381801,8.81634494 13.7386537,8.4232924 13.9856019,8.18122293 C14.2325501,7.93915345 14.6324988,7.93961897 14.8788154,8.18246431 L18.8156178,12.0617828 C19.0614607,12.3040074 19.0614607,12.6959738 18.8156178,12.9383536 L14.8788154,16.817672 Z" id="path-1"></path>
+    </defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1143.000000, -2608.000000)">
+            <g id="ico/arrow" transform="translate(1136.000000, 2600.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="arrow-thin-right-copy" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="color/white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle-3" x="0" y="0" width="25" height="25"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

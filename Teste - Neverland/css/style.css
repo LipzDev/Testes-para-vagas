@@ -1,0 +1,422 @@
+@font-face{
+    font-family: "Gotham-Regular";
+    src:url('../fonts/Gotham-Medium.ttf')
+}
+
+@font-face{
+    font-family: "Gotham-Bold";
+    src:url('../fonts/Gotham-Bold.ttf')
+}
+
+@font-face{
+    font-family: "Gotham-Book";
+    src:url('../fonts/Gotham-Book.ttf')
+}
+
+@font-face{
+    font-family: "Gotham-Light";
+    src:url('../fonts/Gotham-Light.ttf')
+}
+
+@font-face{
+    font-family: "Gotham-ExtraLight";
+    src:url('../fonts/Gotham-ExtraLight.ttf')
+}
+
+html, body, h1, h2, h3, h4, ul, li, a, p, input, button, textarea{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: gotham-light;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.container2{
+    max-width: 1165px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+/* ESTILOS DO SITE */
+
+.header{
+   padding: 60px 0;
+   background-color: #A3864B;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li+li{
+    margin-left: 30px;
+}
+
+.menu a{
+    color: white;
+    font-size: 1.2rem;
+    font-family: gotham-book;   
+    letter-spacing: 1.5px; 
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+.menu a:hover{
+    font-weight: bold;
+}
+
+/* TELEFONE DE CONTATO - MENU */
+
+.cel{
+    position: absolute;
+    right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.cel img{
+    background-color: #D8B46B;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+.cel a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: gotham-bold;
+    letter-spacing: 1.5px;
+}
+
+/* BACKGROUND */
+
+.background{
+    background-color: #A3864B;
+    width: 100%;
+    height: 145vh;    
+}
+
+.background-img{
+    background-image: url(../imgs/webdoor-desktop.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    align-items: center;    
+}
+
+.background-img h1{
+    font-size: 4.8rem;
+    font-family: gotham-light;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 7px;
+    max-width: 600px;
+    position: relative;  
+    left: -12rem;  
+}
+
+/* ESTILO ARROW */
+
+.arrow img{
+    position: absolute;
+    bottom: 60px;
+    left: 47%;
+    background-color: #D8B46B;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+/* SECTION 2 - CONCEITO */
+
+.conceito{
+    background-color: #7A663C;
+    width: 80%;
+    height: 80vh;
+    position: relative;
+    position: absolute;
+    top: 100rem;
+
+    display: flex;
+    align-items: center;  
+    z-index: 999;  
+}
+
+.name-section-1 p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: gotham-bold;
+    color: white;
+
+    position: relative;
+    top: -10rem;
+    right: -12rem;
+}
+
+/* CONCEITO TEXT */
+
+.conceito-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conceito-item h2{
+    font-size: 4.8rem;
+    font-family: gotham-light;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 7px;
+    margin-right: 50px;  
+    max-width: 600px;    
+}
+
+.conceito-item p{
+    font-size: 1.8rem;
+    font-family: gotham-extralight;
+    color: white;   
+    max-width: 350px;
+    letter-spacing: 1.2px
+}
+
+/* SECTION 3 - PROJETO */
+
+.projeto{
+    background-color: #5E4C26;
+    width: 100%;
+    height: 140vh;   
+}
+
+.name-section-2 p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: gotham-bold;
+    color: white;
+
+    position: relative;
+    bottom: -45rem;
+}
+
+.projeto-img{
+    background-image: url(../imgs/gallery-1.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: -50rem;
+
+    display: flex;    
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projeto-text{
+    position: relative;
+    left: -12rem;
+}
+
+.projeto-text h3{
+    font-size: 4.8rem;
+    font-family: gotham-light;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 7px;
+    max-width: 600px;    
+}
+
+.projeto-text p{
+    font-size: 2.5rem;
+    font-family: gotham-light;
+    color: white;   
+    max-width: 350px;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+}
+
+
+/* SECTION 3 - VIDEO */
+
+.name-section-3 p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: gotham-bold;
+    color: #000000;
+    margin: 60px 0;
+}
+
+.video-item img{
+   width: 100%; 
+   cursor: pointer;
+   margin-bottom: 100px;
+}
+
+.modal{
+    display: none;
+}
+
+.modal.ativaModal{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SECTION 4 - LOCALIZAÇÃO */
+
+.name-section-4 p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: gotham-bold;
+    color: #ffffff;
+    padding: 60px 0;    
+}
+
+.mapa{
+    background-color: #202122;
+    width: 100%;
+    height: 90vh;
+}
+
+/* SECTION 5 - FORMULARIO */
+
+.formulario{
+    background-color: #181818;
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-section-5{
+    font-size: 2.5rem;
+    text-align: center;
+    max-width: 300px;    
+    color: white;
+    font-family: gotham-light;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+}
+
+/* FORMULARIO */
+
+.form{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;    
+}
+
+.form input{
+    padding: 10px 10px;
+    border: 2px solid rgb(131, 131, 131);
+    border-top: 0;    
+    background-color: #181818;
+    color: white;
+}
+
+.form p{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: gotham-light;
+}
+
+.form textarea{
+    padding: 30px 10px;
+    border: 2px solid rgb(131, 131, 131);
+    border-top: 0;    
+    background-color: #181818;
+    resize: none;
+    color: white;    
+}
+
+.form button{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 250px;
+    font-family: gotham-bold;
+    font-size: 1.5rem;
+    background-color: #D8B46B;  
+    border: 0;
+    color: white; 
+    cursor: pointer; 
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    position: relative;
+    border-top: 2px solid rgb(129, 129, 129);
+}
+
+.footer-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-item p{
+    color: white;
+    font-family: gotham-light;
+    font-size: 1.5rem;
+}
+
+.icones-footer{
+    position: absolute;
+    right: 100px;
+}
+
+.icones-footer a+a{
+    margin-left: 20px;
+}
