@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Front End Test - Greenthumb</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/e6b1f34d6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="./images/icons/logo-white.svg" alt="Greenthumb" />
+      </div>
+    </header>
+
+    <main>
+      <!-- BACKGROUND -->
+      <section class="bg">
+        <div class="fundo">
+          <img
+            src="./images/hero/desktop/left-leaves.png"
+            alt="Ilustração de plantas #1"
+          />
+
+          <img
+            id="plantperson"
+            src="/images/hero/desktop/plantperson.png"
+            alt="Ilustração de uma pessoa segurando uma planta"
+          />
+
+          <img
+            src="/images/hero/desktop/right-leaves.png"
+            alt="Ilustração de plantas #2"
+          />
+        </div>
+
+        <!-- FUNDO MOBILE -->
+
+        <div class="fundo-mobile">
+          <img
+            src="images/hero/mobile/mobile-leaves.png"
+            alt="Ilustração de plantas #1"
+          />
+
+          <img
+            id="plantperson-mobile"
+            src="images/hero/mobile/mobile-plantperson.png"
+            alt="Ilustração de uma pessoa segurando uma planta mobile"
+          />
+        </div>
+
+        <div class="container">
+          <div class="bg__text">
+            <h1>Find your next green friend</h1>
+            <a href="#select-section">
+              <img src="images/icons/arrow-down.svg" alt="Seta para baixo" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SELECT -->
+      <section class="select" id="select-section">
+        <div class="container">
+          <div class="select__flex">
+            <div class="select-item">
+              <img
+                src="images/illustrations/sun.png"
+                alt="Ilustração de um sol"
+              />
+              <p>
+                <b>1.</b> Set the amount of <b>sunlight</b> your plant will get.
+              </p>
+
+              <select
+                class="select-list--item"
+                id="sun"
+                onchange="getContent()"
+              >
+                <option value="no">No</option>
+                <option value="low">Low</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+
+            <div class="select-item">
+              <img
+                src="images/illustrations/wateringcan.png"
+                alt="Ilustração de um regador"
+              />
+              <p><b>2.</b> How often do you want to <b>water</b> your plant?</p>
+              <select
+                class="select-list--item"
+                id="water"
+                onchange="getContent()"
+              >
+                <option value="regularly">Regularly</option>
+                <option value="daily">Daily</option>
+                <option value="rarely">Rarely</option>
+              </select>
+            </div>
+
+            <div class="select-item">
+              <img
+                src="images/illustrations/dog.png"
+                alt="Ilustração de um cachorro"
+              />
+              <p><b>3.</b> Do you have pets? Do they <b>chew</b> plants?</p>
+              <select
+                class="select-list--item"
+                id="pet"
+                onchange="getContent()"
+              >
+                <option value="true">True</option>
+                <option value="false">False</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop">
+        <div class="container" id="grid">
+          <div class="shop--section">
+            <img
+              id="img_mao"
+              src="images/illustrations/pick.png"
+              alt="Ilustração de uma mão pegando uma folha"
+            />
+            <h3>Our picks for you</h3>
+
+            <div class="shop--grid">
+              <div class="item staff_favorite">
+                <img
+                  src="images/plant photos/bunny-ears-cacti.png"
+                  alt="Imagem 2"
+                />
+
+                <div class="card-text">
+                  <div class="card-name">
+                    <p>Bunny ears cacti</p>
+                  </div>
+
+                  <div class="card-price">
+                    <span>$25</span>
+                    <div class="icon">
+                      <img src="images/icons/pet.svg" alt="Icone" />
+                      <img src="images/icons/HighSun.svg" alt="Icone" />
+                      <img src="images/icons/1-drop.svg" alt="Icone" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 2 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/euphorbia-eritrea.png"
+                  alt="Imagem 2"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Euphorbia eritrea</p>
+                    <span>$25</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/pet.svg" alt="Icone" />
+                    <img src="images/icons/HighSun.svg" alt="Icone" />
+                    <img src="images/icons/1-drop.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 3 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/succulent-bowl.png"
+                  alt="Imagem 3"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Succulent bowl</p>
+                    <span>$25</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/pet.svg" alt="Icone" />
+                    <img src="images/icons/HighSun.svg" alt="Icone" />
+                    <img src="images/icons/1-drop.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 4 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/ponytail-palm.png"
+                  alt="Imagem 4"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Ponytail palm</p>
+                    <span>$50</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/pet.svg" alt="Icone" />
+                    <img src="images/icons/low-sun.svg" alt="Icone" />
+                    <img src="images/icons/2-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 5 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/ficus-lyrata.png"
+                  alt="Imagem 5"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Ficus lyrata</p>
+                    <span>$50</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/pet.svg" alt="Icone" />
+                    <img src="images/icons/low-sun.svg" alt="Icone" />
+                    <img src="images/icons/2-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 6 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/lucky-bamboo.png"
+                  alt="Imagem 6"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Lucky bamboo</p>
+                    <span>$50</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/pet.svg" alt="Icone" />
+                    <img src="images/icons/low-sun.svg" alt="Icone" />
+                    <img src="images/icons/2-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 7 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/calathea-triostar.png"
+                  alt="Imagem 7"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Calathea triostar</p>
+                    <span>$50</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/toxic.svg" alt="Icone" />
+                    <img src="images/icons/no-sun.svg" alt="Icone" />
+                    <img src="images/icons/3-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 8 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/pilea-peperomioides.png"
+                  alt="Imagem 8"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Pilea peperomioides</p>
+                    <span>$35</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/toxic.svg" alt="Icone" />
+                    <img src="images/icons/no-sun.svg" alt="Icone" />
+                    <img src="images/icons/3-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- ITEM 9 -->
+
+              <div class="item">
+                <img
+                  src="images/plant photos/monstera-deliciosa.png"
+                  alt="Imagem 9"
+                />
+
+                <div class="card-text-2">
+                  <div class="card-name-2">
+                    <p>Monstera deliciosa</p>
+                    <span>$60</span>
+                  </div>
+
+                  <div class="icon-2">
+                    <img src="images/icons/toxic.svg" alt="Icone" />
+                    <img src="images/icons/no-sun.svg" alt="Icone" />
+                    <img src="images/icons/3-drops.svg" alt="Icone" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="button--return">
+              <a href="#select-section"
+                ><img src="images/icons/arrow-up.svg" alt="Seta pra cima" />
+                back to the top</a
+              >
+            </div>
+
+            <div class="return--shop" title="Retornar" onclick="reload()">
+              <i class="fas fa-undo-alt"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="creditos">
+        <a href="https://github.com/LipzDev">Criado por - LipzDev</a>
+      </div>
+    </footer>  
+    
+    <script src="js/script.js"></script>
+    </body>
+</html>
