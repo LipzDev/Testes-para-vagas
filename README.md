@@ -23,7 +23,7 @@
 
 
 ##  Teste 03 - Teste front-end - RED VENTURES<a name="id03"></a>
-[Teste 03 - Código](https://github.com/LipzDev/Testes-para-vagas/tree/main/Teste - RedVentures)
+[Teste 03 - Código](https://github.com/LipzDev/Testes-para-vagas/tree/main/Teste%20-%20RedVentures)
 
-![Teste 03](https://github.com/LipzDev/Testes-para-vagas/blob/main/Teste - RedVentures/preview.png)
+![Teste 03](https://github.com/LipzDev/Testes-para-vagas/blob/main/Teste%20-%20RedVentures/preview.png)
 
